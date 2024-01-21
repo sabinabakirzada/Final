@@ -1,0 +1,31 @@
+#gallery {
+  background-color: rgb(248, 248, 248);
+  padding: 50px;
+  .container {
+    .gallery {
+      text-align: center;
+      .gallery-h1 {
+        font-size: 56px;
+        font-weight: 100;
+        font-family: serif;
+      }
+      .gallery-p {
+        font-size: 20px;
+        color: #bababa;
+        padding-bottom: 70px;
+      }
+
+      .gallery-imgs {
+        margin: auto;
+        display: flex;
+        width: 1250px;
+        flex-wrap: wrap;
+        gap: 10px;
+        .gallery-img {
+          width: 400px;
+          height: 400px;
+        }
+      }
+    }
+  }
+}

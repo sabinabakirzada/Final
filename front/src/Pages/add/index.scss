@@ -1,0 +1,16 @@
+#add {
+  margin-top: 100px;
+  .add {
+    margin-top: 100px;
+
+    .add-form {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      margin: 20px;
+      .add-filed {
+        margin: 10px;
+      }
+    }
+  }
+}

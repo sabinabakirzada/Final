@@ -1,0 +1,55 @@
+#story {
+  .container {
+    .story {
+      display: flex;
+      justify-content: center;
+      padding: 150px 0px 100px 0px;
+      gap: 80px;
+      .story-text {
+        width: 450px;
+        .story-h5 {
+          font-size: 18px;
+          color: #d4d4d4;
+          font-weight: 400;
+          letter-spacing: 2px;
+          line-height: 23.5px;
+        }
+        .story-h1 {
+          font-size: 56px;
+          font-family: serif;
+          font-weight: 300;
+          line-height: 81px;
+        }
+        .story-p {
+          font-size: 16px;
+          color: #b8b8b8;
+          font-weight: 400;
+        }
+        .story-p1 {
+          margin-bottom: 10px;
+        }
+        .story-btn {
+          font-size: 16px;
+          padding: 15px 30px;
+          color: #999999;
+          margin-top: 20px;
+          background-color: #99999900;
+          border: 2px solid #999999;
+          transition: 0.5s all;
+          &:hover {
+            background-color: #fda403;
+            color: white;
+            border: 2px solid #fda403;
+            cursor: pointer;
+          }
+        }
+      }
+      .story-img {
+        img {
+          width: 500px;
+          height: 300px;
+        }
+      }
+    }
+  }
+}
